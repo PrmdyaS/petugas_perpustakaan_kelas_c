@@ -48,7 +48,7 @@ class AddBookController extends GetxController {
         if (response.statusCode == 201) {
           Get.offAllNamed(Routes.BOOK);
           Get.snackbar("Berhasil", "Menambahkan Buku",
-              backgroundColor: Colors.orange);
+              backgroundColor: Colors.green);
         } else {
           Get.snackbar("Sorry", "Menambahkan Buku Gagal",
               backgroundColor: Colors.orange);
